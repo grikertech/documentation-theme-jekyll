@@ -175,8 +175,8 @@ The sidebar data file uses a specific YAML syntax that you must follow. Follow t
 ```yaml
 entries:
 - title: sidebar
-  product: Jekyll Doc Theme
-  version: 6.0
+  product: GRIKer
+  version: 1.0
   folders:
   - title: Overview
     output: web, pdf
@@ -227,6 +227,44 @@ entries:
         - title: Content types pages
           url: /tag_content_types.html
           output: web
+
+    - title: Product
+      output: web
+      folderitems:
+
+        - title: F9P RTK HAT
+          url:
+          output: web
+
+        - title: EC25 4G HAT
+          url:
+          output: web
+
+        - title: Radio Modem HAT
+          url:
+          output: web
+
+    - title: User Cases
+      output: web
+      folderitems:
+
+        - title: RTK+4G Base/Rover
+          url:
+          output: web
+
+        - title: RTK+Radio Modem Base/Rover
+          url:
+          output: web
+
+        - title: RTKx2 Heading Detection
+          url:
+          output: web
+
+    - title: What is RTK?
+      url:
+      output: web
+
+
 ```
 
 Each `folder` or `subfolder` must contain a `title` and `output` property. Each `folderitem` or `subfolderitem` must contain a `title`, `url`, and `output` property.
@@ -279,6 +317,8 @@ entries:
       url: /mydoc_install_jekyll_on_windows.html
       output: web, pdf
 ```
+
+
 
 To accommodate the title page and table of contents in PDF outputs, each product sidebar must list these pages before any other:
 

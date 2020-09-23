@@ -228,41 +228,41 @@ entries:
           url: /tag_content_types.html
           output: web
 
-    - title: Product
-      output: web
-      folderitems:
+  - title: Product
+    output: web
+    folderitems:
 
-        - title: F9P RTK HAT
-          url:
-          output: web
+      - title: F9P RTK HAT
+        url:
+        output: web
 
-        - title: EC25 4G HAT
-          url:
-          output: web
+      - title: EC25 4G HAT
+        url:
+        output: web
 
-        - title: Radio Modem HAT
-          url:
-          output: web
+      - title: Radio Modem HAT
+        url:
+        output: web
 
-    - title: User Cases
-      output: web
-      folderitems:
+  - title: User Cases
+    output: web
+    folderitems:
 
-        - title: RTK+4G Base/Rover
-          url:
-          output: web
+      - title: RTK+4G Base/Rover
+        url:
+        output: web
 
-        - title: RTK+Radio Modem Base/Rover
-          url:
-          output: web
+      - title: RTK+Radio Modem Base/Rover
+        url:
+        output: web
 
-        - title: RTKx2 Heading Detection
-          url:
-          output: web
+      - title: RTKx2 Heading Detection
+        url:
+        output: web
 
-    - title: What is RTK?
-      url:
-      output: web
+  - title: What is RTK?
+    url:
+    output: web
 
 
 ```
